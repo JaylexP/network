@@ -1,0 +1,21 @@
+{% extends "network/layout.html" %}
+{% load static %}
+{% block body %}
+    <form id="NewPostForm" class="card mb-3">
+        <div class="p-3">
+            <label for="content" class="form-label" >New post</label>
+            <textarea class="form-control" id="content" rows="1" placeholder="What's on your mind?"></textarea>
+            <button class="btn btn-primary mt-2">Post</button>
+        </div>
+    </form>
+
+    <div id="feed"></div>
+
+    <nav aria-label="Pagination" class="mt-3 ms-2 p-3">
+        <ul class="pagination pagination-lg" id="pagination">
+
+        </ul>
+    </nav>
+
+    <script  type="module" src="{% static 'network/index.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,66 @@
+/* network/styles.css */
+
+/* General page background */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header, .btn-pink {
+    background-color: #ffcccb;
+    color: #ffffff;
+}
+
+.card-footer {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Form input styles */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ffcccb;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #ffcccb;
+    box-shadow: 0 0 5px rgba(255, 204, 203, 0.5);
+}
+
+/* Button styles */
+.btn-pink {
+    background-color: #ffcccb;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-pink:hover {
+    background-color: #ffb3b3;
+}
+
+/* Alert styles */
+.alert-warning {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    color: #856404;
+}
+
+/* Link styles */
+a.text-decoration-none {
+    color: #ff6666;
+}
+
+a.text-decoration-none:hover {
+    color: #ff4d4d;
+}
